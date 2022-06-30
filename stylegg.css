@@ -10,6 +10,7 @@
     background-color: rgba(34, 0, 102, 1);
     position: fixed;
     top: 0;
+    text-shadow: 2px 2px 5px rgb(85, 85, 105);
 }
 
 body {
@@ -29,19 +30,30 @@ html {
 
 .main, .home {
     font-family: 'Gantari', sans-serif;
+    line-height: 2.5rem;
+    font-weight: 100;
 }
 
 .main .menu {
+    display: block;
+    clear: both;
     text-align: left;
-    width: 25%;
+    width: 20%;
     position: fixed;
     top: 10em;
     left: 40px;
     margin-top: auto;
-    line-height: 2;
+    line-height: 2rem;
     color: #AEA6BD;
     font-size: 20px;
     min-width: 200px;
+}
+
+.main .menu .li {
+    clear: right;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
 }
 
 h3 {
