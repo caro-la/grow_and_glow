@@ -1,0 +1,164 @@
+
+.heading h1 {
+    padding: 2rem;
+    width: 100%; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    background-color: rgba(34, 0, 102, 1);
+    position: fixed;
+    top: 0;
+}
+
+body {
+    max-width: 800px;
+    min-width: 600px;
+}
+
+html {
+    width: 100%;
+    font-size: 10px;
+    background-color: #003;
+}
+
+.home {
+    position: fixed;
+}
+
+.main, .home {
+    font-family: 'Gantari', sans-serif;
+}
+
+.main .menu {
+    text-align: left;
+    width: 25%;
+    position: fixed;
+    top: 10em;
+    left: 40px;
+    margin-top: auto;
+    line-height: 2;
+    color: #AEA6BD;
+    font-size: 20px;
+    min-width: 200px;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.home {
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    z-index: 0;
+    margin-left: 300px;
+    margin-right: 50px;
+    min-height: 200px;
+    max-height: 1200px;
+    min-width: 200px;
+    max-width: 1200px;
+}
+
+
+
+
+.home body {
+    background: #072C6A;
+    padding: 25px;
+    font-size: 20px;
+    text-align: left;
+}
+  
+.home p {
+    color: #AEA6BD;
+    text-align: justify;
+    font-size: 20px;
+}
+  
+.home h1 {
+    color: #AEA6BD;
+    font-size: 40px;
+    text-align: center;
+    /*
+    border-bottom: 0.2rem dashed #AEA6BD;
+    width: 80%;*/
+}
+   
+.home h3 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.home h2 {
+    font-size: 30px;
+}
+  
+.home h2, h3, b {
+    color: #AEA6BD;
+}
+  
+.home .list, 
+.home ol, 
+.home .link {
+    color: #AEA6BD;
+}
+
+.home ol {
+    text-align: left;
+    font-size: 20px;
+}
+  
+.home .cite {
+    text-align: center;
+    font-size: 26px;
+}
+
+.home ul li:hover,
+.home .link:hover {
+    color: lightblue;
+}
+
+.home ul {
+    text-align: left;
+    font-size: 20px;
+}
+  
+.home footer {
+    font-size: 15px;
+    font-weight: bold;
+    color: #220055ff;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .main .menu ul li {
+        display: inline-block;
+        position: fixed;
+        bottom: 1em;
+        left: 1em;
+        width: 95%;
+        z-index: 10;
+        padding: 5px 0.75em;
+        border-radius: 5px;
+        border: 1px solid #AEA6BD;
+        margin: 0 0.75em;
+        background-color: rgba(7, 44, 106, 1.0);
+    }
+
+    .main .menu :hover {
+        border: 1px solid 
+    }
+
+    .home {
+        position: absolute;
+        margin: 0 auto;
+        text-align: justify;
+        align-self: auto;
+        width: 95%;
+    } 
+}
