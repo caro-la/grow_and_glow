@@ -1,0 +1,81 @@
+.heading h1 {
+    padding: 2rem;
+    width: 100%; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    background-color: #B3D7FF;
+    position: fixed;
+    top: 0;
+    text-shadow: 2px 2px 5px rgb(85, 85, 105);
+}
+
+body {
+    max-width: 800px;
+    min-width: 600px;
+}
+
+html {
+    width: 100%;
+    font-size: 10px;
+    background-color: rgb(237, 201, 254);
+}
+
+.home {
+    position: fixed;
+}
+
+.main, .home {
+    font-family: 'Gantari', sans-serif;
+    line-height: 2.5rem;
+    font-weight: 100;
+}
+
+.main .menu {
+    display: block;
+    clear: both;
+    text-align: left;
+    width: 20%;
+    position: fixed;
+    top: 10em;
+    left: 40px;
+    margin-top: auto;
+    line-height: 2rem;
+    color: #AEA6BD;
+    font-size: 20px;
+    min-width: 200px;
+}
+
+.main .menu .li {
+    clear: right;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.home {
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    z-index: 0;
+    margin-left: 300px;
+    margin-right: 50px;
+    min-height: 200px;
+    max-height: 1200px;
+    min-width: 200px;
+    max-width: 1200px;
+}
+
+.home body {
+    padding: 25px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.home body .buttons {
+    display: block;
+    justify-content: center;
+
+}
